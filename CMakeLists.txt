@@ -12,7 +12,7 @@ endif()
 project ("LoggerService")
 
 # Add source to this project's executable.
-add_executable (LoggerService "LoggerService.cpp" "LoggerService.h")
+add_executable (LoggerService "LoggerService.cpp" "LoggerService.h" "Example.cpp")
 
 if (CMAKE_VERSION VERSION_GREATER 3.12)
   set_property(TARGET LoggerService PROPERTY CXX_STANDARD 20)
